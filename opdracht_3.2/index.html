@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="nl-NL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Vakantie Tickets Bestellen</title>
+</head>
+<body>
+    <form action="...">
+        <fieldset>
+            <legend>
+                UW INFORMATIE:
+            </legend>
+            <label>
+                Voornaam:
+                <input type="text" placeholder="Uw Voornaam" name="name" size="30" maxlength="100">
+            </label>
+            <br/>
+            <label>
+                Achternaam:
+                <input type="text" placeholder="Uw Achternaam" name="surname" size="30" maxlength="100"></inputinput>
+            </label>
+            <br/>
+            <p>
+            Uw geslacht:
+            <label>
+                <input type="radio" name="geslacht" value="man"/>
+                Man
+            </label>
+            <label>
+                <input type="radio" name="geslacht" value="vrouw"/>
+                Vrouw
+            </label>
+            </p>
+            <label>
+                Uw BSN-nummer:
+                <input type="text" placeholder="Uw BSN-Nummer" name="BSN-nummer" size="30" maxlength="9">
+            </label>
+            <br/>
+            <br/>
+            <label>
+                Adres:
+                <input type="text" id="postcode" placeholder="Uw Postcode" name="Postcode" size="30" maxlength="50"><br/>
+                <input type="text" id="stad" placeholder="Uw Stad " name="Stad" size="30" maxlength="50"><br/>
+                <input type="text" id="land" placeholder="Uw Land" name="Land" size="30" maxlength="50"><br/>
+            </label>
+        </fieldset>
+        
+        <br/>
+        
+        <fieldset>
+            <legend>
+                VAKANTIE BESTEMMING:
+            </legend>
+            <p>
+                <label for="destination">
+                    Selecteer uw vakantiebestemming:
+                </label>
+                <select name="destination" id="vakantiebestemming">
+                    <option value="US">United States</option>
+                    <option value="GB">United Kingdom</option>
+                    <option value="GER">Duitsland</option>
+                </select>
+            </p>
+            <label for="datemin">
+                Datum van vertrek:
+                <input type="date" id="datemin" name="datemin" min="2022-09-15"><br/>
+            </label>
+
+            <label for="datemax">
+                Datum van terugkomst:
+                <input type="date" id="datemin" name="datemin" min="2022-09-15"><br/>
+            </label>
+
+            <br/>
+
+            <label for="people">
+                De hoeveelheid personen waar u voor besteld:
+                <input type="number" min="1" max="4"/><br>
+            </label>
+
+            <br/>
+
+            <input type="submit" value="BOEK NU"/>
+        </fieldset>
+
+        <br/>
+
+        <fieldset>
+            <legend>
+                ACCOUNT AANMAKEN:
+            </legend>
+            <label>
+                Email:
+                <input type="email" name="email" size="30" maxlength="100">
+            </label>
+            
+            <br/>
+            
+            <label>
+                Wachtwoord:
+                <input type="password" name="password" size="30" maxlength="100">
+            </label>
+            
+            <br/>
+            <br/>
+
+            <label>
+                <input type="checkbox" name="subscribe" checked="checked"/>
+                Blijf op de hoogte van de informatie.
+            </label>
+            <br/>
+            <br/>
+
+            <input type="submit" value="MAAK EEN ACCOUNT"/>
+        </fieldset>
+    </form>
+</body>
+</html>
