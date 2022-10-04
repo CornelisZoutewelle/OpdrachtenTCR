@@ -1,0 +1,36 @@
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+#box1 {
+   width: 200px;
+   height: 200px;
+   background-color: blue;
+}
+
+#box2 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+ }
+
+ #box3 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+ }
+
+ #box4 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+ }
