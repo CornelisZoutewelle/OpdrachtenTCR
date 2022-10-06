@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.flex-container > div {
+    color: black;
+    background-color: lightgray;
+    height: 150px;
+    width: 200px;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+#logo, #login {
+    width: 25%;
+    margin: 0px;
+}
+
+#home, #about, #projects, #contact {
+    width: 12,5%;
+    margin: 0px;
+}
